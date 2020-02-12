@@ -107,3 +107,17 @@ background: linear-gradient(270deg, rgba(112,28,117,1) 35%, rgba(252,205,255,1) 
   -moz-box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
   box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
 }
+
+h1 {
+  font-family: 'Audiowide', cursive;
+  background-color: rgba(112,28,117,1);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}
+
+h2 {
+  font-family: 'Audiowide', cursive;
+}
