@@ -57,9 +57,10 @@ textarea{
   color: white;
 }
 
-.hrChunk {
+.hrChunks {
   flex: auto;
   text-align: center;
+  background-color: #77dd77;
 }
 
 .saveBtn {
@@ -76,7 +77,31 @@ textarea{
 }
 
 #hrChunk {
-  padding: 5%;
+  border-radius: 23px 139px 84px 84px;
+-moz-border-radius: 23px 139px 84px 84px;
+-webkit-border-radius: 23px 139px 84px 84px;
+border: 0px solid #000000;
+  padding: 4%;
   background: rgb(112,28,117);
   background: linear-gradient(90deg, rgba(112,28,117,1) 35%, rgba(252,205,255,1) 100%);
+  -webkit-box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
+  -moz-box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
+  box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
+}
+
+.myButton {
+  width: 100%;
+  background: rgb(112,28,117);
+  background: linear-gradient(90deg, rgba(112,28,117,1) 35%, rgba(252,205,255,1) 100%);
+  -webkit-box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
+  -moz-box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
+  box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
+}
+
+.myButtonClicked {
+  background: rgb(112,28,117);
+background: linear-gradient(270deg, rgba(112,28,117,1) 35%, rgba(252,205,255,1) 100%);
+  -webkit-box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
+  -moz-box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
+  box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
 }
