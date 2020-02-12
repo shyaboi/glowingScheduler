@@ -1,4 +1,6 @@
 body {
+  background: rgb(255,254,125);
+  background: linear-gradient(270deg, rgba(255,254,125,1) 35%, rgba(167,171,255,1) 100%);
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
