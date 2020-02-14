@@ -6,7 +6,7 @@ body {
   line-height: 1;
 }
 /* body---------------------------------------------------------------------------------------------------------------- */
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -87,7 +87,7 @@ border: 0px solid #000000;
 }
 
 
-.pastChunk {
+.currentChunk {
   border-radius: 23px 139px 84px 84px;
 -moz-border-radius: 23px 139px 84px 84px;
 -webkit-border-radius: 23px 139px 84px 84px;
@@ -95,11 +95,17 @@ border: 0px solid #000000;
   padding: 4%;
   background: rgb(255,254,125);
 background: linear-gradient(270deg, rgba(255,254,125,1) 35%, rgba(173,13,13,1) 100%);
--webkit-box-shadow: -11px -1px 50px 18px rgba(173,13,13,1) 100%;
-  -moz-box-shadow: -11px -1px 50px 18px rgba(173,13,13,1) 100%;
-  box-shadow: -11px -1px 50px 18px rgba(173,13,13,1) 100%;
+
 }
 
+
+.pastChunk {
+  background: rgb(193,245,255);
+background: linear-gradient(270deg, rgba(193,245,255,1) 35%, rgba(0,212,255,1) 100%);
+-webkit-box-shadow: -11px -1px 50px 18px rgba(0,212,255,1) 100%;
+  -moz-box-shadow: -11px -1px 50px 18px rgba(0,212,255,1) 100%;
+  box-shadow: -11px -1px 50px 18px rgba(0,212,255,1) 100%;
+}
 
 
 /* /form control fill in and text changer ...................................................................................................... */ 
@@ -127,6 +133,8 @@ background: linear-gradient(270deg, rgba(255,254,125,1) 35%, rgba(173,13,13,1) 1
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  background: rgb(193,245,255);
+background: linear-gradient(270deg, rgba(193,245,255,1) 35%, rgba(0,212,255,1) 100%);
   /* background: rgb(112,28,117);
   background: linear-gradient(90deg, rgba(112,28,117,1) 35%, rgba(252,205,255,1) 100%); */
   resize: none; 
@@ -135,6 +143,14 @@ background: linear-gradient(270deg, rgba(255,254,125,1) 35%, rgba(173,13,13,1) 1
   font-size: larger;
   /*remove the resize handle on the bottom right*/
 } 
+
+.form-controlSaved {resize: none; 
+  color: #000000;
+  font-family: 'Audiowide', cursive;
+  font-size: larger;
+  background: rgb(193,245,255);
+background: linear-gradient(270deg, rgba(193,245,255,1) 35%, rgba(0,212,255,1) 100%);
+}
 
 .form-control {
 
@@ -161,11 +177,20 @@ background: linear-gradient(270deg, rgba(255,254,125,1) 35%, rgba(173,13,13,1) 1
   box-shadow: -11px -1px 50px 18px rgba(112,28,117,1); */
 }
 
-.myButtonPast {
+.myButtonCurrent {
+  font-family: 'Audiowide', cursive;
   width: 100%;
   background: rgb(255,254,125);
   background: linear-gradient(270deg, rgba(255,254,125,1) 35%, rgba(173,13,13,1) 100%);
 }
+
+.myButtonPast {
+  font-family: 'Audiowide', cursive;
+  width: 100%;
+  background: rgb(193,245,255);
+background: linear-gradient(270deg, rgba(193,245,255,1) 35%, rgba(0,212,255,1) 100%);
+}
+
 
 .panel {
   display: none;
