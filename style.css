@@ -5,7 +5,7 @@ body {
   font-size: 16px;
   line-height: 1;
 }
-
+/* body---------------------------------------------------------------------------------------------------------------- */
 textarea{
   background: transparent;
   border: none;
@@ -111,7 +111,7 @@ background: linear-gradient(270deg, rgba(255,254,125,1) 35%, rgba(173,13,13,1) 1
   -moz-box-shadow: none;
   box-shadow: none;
   background: rgb(255,254,125);
-background: linear-gradient(270deg, rgba(255,254,125,1) 35%, rgba(173,13,13,1) 100%);
+  background: linear-gradient(270deg, rgba(255,254,125,1) 35%, rgba(173,13,13,1) 100%);
   resize: none; 
   color: #000000;
   font-family: 'Audiowide', cursive;
@@ -120,14 +120,15 @@ background: linear-gradient(270deg, rgba(255,254,125,1) 35%, rgba(173,13,13,1) 1
 
 
 .form-controlSaved {
+  opacity: 20%;
   border: none;
   overflow: auto;
   outline: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  background: rgb(112,28,117);
-  background: linear-gradient(90deg, rgba(112,28,117,1) 35%, rgba(252,205,255,1) 100%);
+  /* background: rgb(112,28,117);
+  background: linear-gradient(90deg, rgba(112,28,117,1) 35%, rgba(252,205,255,1) 100%); */
   resize: none; 
   color: #000000;
   font-family: 'Audiowide', cursive;
@@ -154,12 +155,17 @@ background: linear-gradient(270deg, rgba(255,254,125,1) 35%, rgba(173,13,13,1) 1
 
 .myButtonClicked {
   background: rgb(112,28,117);
-background: linear-gradient(270deg, rgba(112,28,117,1) 35%, rgba(252,205,255,1) 100%);
-  -webkit-box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
+  background: linear-gradient(270deg, rgba(112,28,117,1) 35%, rgba(252,205,255,1) 100%);
+  /* -webkit-box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
   -moz-box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
-  box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
+  box-shadow: -11px -1px 50px 18px rgba(112,28,117,1); */
 }
 
+.myButtonPast {
+  width: 100%;
+  background: rgb(255,254,125);
+  background: linear-gradient(270deg, rgba(255,254,125,1) 35%, rgba(173,13,13,1) 100%);
+}
 
 .panel {
   display: none;

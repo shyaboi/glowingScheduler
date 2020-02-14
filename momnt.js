@@ -15,21 +15,28 @@ var past = hour >
 // var twoPM = $('hrChunk6')
 // var thrPM = $('hrChunk7')
 // var fouPM = $('hrChunk8')
-if (past)
-    $('form-control').addClass('pastForm-control')
-
 if (hour = hour) {
-    $('#hrChunkTwo').removeClass('pastChunk')
-    $('#hrChunkTwo').addClass('currentChunk')
-    
+    $('#hrChunkTwo').removeClass('currentChunk')
+    $('#hrChunkTwo').addClass('pastChunk')
+    }
+
+if (hour = hour){
+    $('#hrChunk2').addClass('pastForm-control')
 }
+if (hour = hour){
+    $('#saveBtn2').removeClass('myButton')
+    $('#saveBtn2').removeClass('.myButtonClicked')
+    $('#saveBtn2').addClass('myButtonPast')
+}
+
 
 // if (hour >= 22) {
 //     $('.form-control').addClass('form-controlSaved')
 // }
 // let timerId = setInterval(date , 100);
+// ----------------------------------------------------------------------------------Update Time
 function updateTime(){
 $('#currentDay').replaceWith(date);
 }
 
-console.log(past)
+console.log(hour)
