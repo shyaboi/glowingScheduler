@@ -91,6 +91,29 @@ border: 0px solid #000000;
   box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
 }
 
+/* this will fade the outlines of the text boxes..................................................... */
+
+.form-controlSaved {
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: rgb(112,28,117);
+  background: linear-gradient(90deg, rgba(112,28,117,1) 35%, rgba(252,205,255,1) 100%);
+  resize: none; 
+  color: #000000;
+  font-family: 'Audiowide', cursive;
+  font-size: larger;
+  /*remove the resize handle on the bottom right*/
+} 
+
+.form-control {
+
+}
+
 .myButton {
   width: 100%;
   background: rgb(112,28,117);
@@ -106,6 +129,12 @@ background: linear-gradient(270deg, rgba(112,28,117,1) 35%, rgba(252,205,255,1) 
   -webkit-box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
   -moz-box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
   box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
+}
+
+
+#panel {
+  padding: 50px;
+  display: none;
 }
 
 h1 {
