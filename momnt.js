@@ -5,8 +5,9 @@ var hour = moment().hour();
 // setInterval(() => {
     updateTime()
 // }, 1000);
-
-
+if (hour >= 22) {
+    $('.form-control').addClass('form-controlSaved')
+}
 // let timerId = setInterval(date , 100);
 function updateTime(){
 $('#currentDay').replaceWith(date);
