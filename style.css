@@ -21,11 +21,18 @@ textarea{
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  font-family: 'Audiowide', cursive;
+
 }
 
 .description{
   white-space: pre-wrap;
 }
+
+#currentDay {
+  font-family: 'Audiowide', cursive;
+}
+
 
 .time-block{
   text-align: center;
@@ -133,7 +140,6 @@ background: linear-gradient(270deg, rgba(112,28,117,1) 35%, rgba(252,205,255,1) 
 
 
 #panel {
-  padding: 50px;
   display: none;
 }
 
