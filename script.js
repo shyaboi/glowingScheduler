@@ -11,42 +11,24 @@ var noteEig = localStorage.getItem('note8')
 
 // --------------------------------------------------------------------------------------------get notes from sotrage--
 
-$(function(){
-  $("#hrChunks").fadeIn(1500);
-  });
+$(function(){$("#hrChunks").fadeIn(1500);});
 // ----------------------------------------------------fancy fade in
 // -------------------------------------------------------------------------------------------------note chunk save call
-$(function(){
- $('#hrChunk1').val(noteOne)
-  });
+$(function(){$('#hrChunk1').val(noteOne)});
 
-$(function(){
-  $('#hrChunk2').val(noteTwo)
-  });
+$(function(){$('#hrChunk2').val(noteTwo)});
 
-$(function(){
-  $('#hrChunk3').val(noteThr)
-  });
+$(function(){$('#hrChunk3').val(noteThr)});
 
-$(function(){
-  $('#hrChunk4').val(noteFou)
-  }); 
+$(function(){$('#hrChunk4').val(noteFou)}); 
   
-$(function(){
-  $('#hrChunk5').val(noteFiv)
-  });
+$(function(){$('#hrChunk5').val(noteFiv)});
 
-$(function(){
-  $('#hrChunk6').val(noteSix)
-  });
+$(function(){$('#hrChunk6').val(noteSix)});
 
-$(function(){
-   $('#hrChunk7').val(noteSev)
-  });
+$(function(){$('#hrChunk7').val(noteSev)});
 
-$(function(){
-  $('#hrChunk8').val(noteEig)
-  });
+$(function(){$('#hrChunk8').val(noteEig)});
 // notePop()
 
 
@@ -62,10 +44,7 @@ $(function(){
 
 
 
-// $( ".btn" ).click(function() {
-//     $( this ).toggleClass('myButtonClicked' );
-//     alert('Changes saved M8!')
-//   });
+
 
 //   $(document).ready(function () {
 //     var savesnotesbtn = document.getElementById("saveBtn");

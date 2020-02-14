@@ -1,4 +1,5 @@
 
+
 // ------------------------------------------------------------on click local storage set note in proper chunk1---------
 $(document).ready(function(){
     $("button").click(function(){
@@ -34,7 +35,7 @@ $(document).ready(function(){
   });
   // ------------------------------------------------------------on click local storage set note in proper chunk4---------
   $(document).ready(function(){
-    $("#saveBtn").click(function(){
+    $("button").click(function(){
         var comment = $.trim($("#hrChunk4").val());
         if(comment === ""){
           return;
@@ -45,7 +46,7 @@ $(document).ready(function(){
   });
   // ------------------------------------------------------------on click local storage set note in proper chunk--------5
   $(document).ready(function(){
-    $("#saveBtn").click(function(){
+    $("button").click(function(){
         var comment = $.trim($("#hrChunk5").val());
         if(comment === ""){
           return;
@@ -56,7 +57,7 @@ $(document).ready(function(){
   });
   // ------------------------------------------------------------on click local storage set note in proper chunk--------6
   $(document).ready(function(){
-    $("#saveBtn").click(function(){
+    $("button").click(function(){
         var comment = $.trim($("#hrChunk6").val());
         if(comment === ""){
           return;
@@ -67,7 +68,7 @@ $(document).ready(function(){
   });
   // ------------------------------------------------------------on click local storage set note in proper chunk--------7
   $(document).ready(function(){
-    $("#saveBtn").click(function(){
+    $("button").click(function(){
         var comment = $.trim($("#hrChunk7").val());
         if(comment === ""){
           return;
@@ -78,7 +79,7 @@ $(document).ready(function(){
   });
   // ------------------------------------------------------------on click local storage set note in proper chunk--------8
   $(document).ready(function(){
-    $("#saveBtn").click(function(){
+    $("button").click(function(){
         var comment = $.trim($("#hrChunk8").val());
         if(comment === ""){
           return;
@@ -86,4 +87,9 @@ $(document).ready(function(){
        localStorage.setItem("note8", comment)
       });
    
+  });
+//   ---------------------------------------------------------------------class change for save button for gradient move
+$( ".btn" ).click(function() {
+    $( this ).toggleClass('myButtonClicked' );
+    alert('Changes saved M8!')
   });
