@@ -89,22 +89,109 @@ $(document).ready(function(){
    
   });
 //   ---------------------------------------------------------------------class change for save button for gradient move
-$( ".btn" ).click(function() {
+$( "#saveBtn1" ).click(function() {
     $(this).toggleClass('myButtonClicked').fadeIn(1000);
     $('#hrChunk1').addClass('form-controlSaved')
+})
 
+$( "#saveBtn2" ).click(function() {
+        $(this).toggleClass('myButtonClicked').fadeIn(1000);
+        $('#hrChunk2').addClass('form-controlSaved')
+})
+
+$( "#saveBtn3" ).click(function() {
+            $(this).toggleClass('myButtonClicked').fadeIn(1000);
+            $('#hrChunk3').addClass('form-controlSaved')
     // alert('Changes saved M8!')
-  });
-// ----------------------------------------------------------------------if
+});
+
+$( "#saveBtn4" ).click(function() {
+    $(this).toggleClass('myButtonClicked').fadeIn(1000);
+    $('#hrChunk4').addClass('form-controlSaved')
+})
+
+$( "#saveBtn5" ).click(function() {
+    $(this).toggleClass('myButtonClicked').fadeIn(1000);
+    $('#hrChunk5').addClass('form-controlSaved')
+})
+
+$( "#saveBtn6" ).click(function() {
+    $(this).toggleClass('myButtonClicked').fadeIn(1000);
+    $('#hrChunk6').addClass('form-controlSaved')
+})
+
+$( "#saveBtn7" ).click(function() {
+    $(this).toggleClass('myButtonClicked').fadeIn(1000);
+    $('#hrChunk7').addClass('form-controlSaved')
+})
+
+$( "#saveBtn8" ).click(function() {
+    $(this).toggleClass('myButtonClicked').fadeIn(1000);
+    $('#hrChunk8').addClass('form-controlSaved')
+})
+// ------------------------------------------------------------if chunk has filled in save, re-default to edit.
 $('.form-control').click(function() {
     var chunk = $('.form-control')
     if ($(chunk).hasClass('form-controlSaved'));
     $(this).removeClass('form-controlSaved')
+    $(this).removeClass('pastForm-control')
 });
-  
+// ------------------------------------------------------------if chunk has filled in save, re-default to edit.
+
+//   ---------------------------------------------------------------------------------------save panel animation
 $(document).ready(function(){
     $("#saveBtn1").click(function(){
-      $("#panel").slideToggle("slowest");
-      $("#panel").delay(500).slideUp(1000);
+      $("#pane1").slideToggle("slowest");
+      $("#pane1").delay(500).slideUp(1000);
     });
-  });
+});
+
+$(document).ready(function(){
+    $("#saveBtn2").click(function(){
+      $("#pane2").slideToggle("slowest");
+      $("#pane2").delay(500).slideUp(1000);
+    });
+});
+
+$(document).ready(function(){
+    $("#saveBtn3").click(function(){
+      $("#pane3").slideToggle("slowest");
+      $("#pane3").delay(500).slideUp(1000);
+    });
+});
+
+$(document).ready(function(){
+    $("#saveBtn4").click(function(){
+      $("#pane4").slideToggle("slowest");
+      $("#pane4").delay(500).slideUp(1000);
+    });
+});
+
+$(document).ready(function(){
+    $("#saveBtn5").click(function(){
+      $("#pane5").slideToggle("slowest");
+      $("#pane5").delay(500).slideUp(1000);
+    });
+});
+
+$(document).ready(function(){
+    $("#saveBtn6").click(function(){
+      $("#pane6").slideToggle("slowest");
+      $("#pane6").delay(500).slideUp(1000);
+    });
+});
+
+$(document).ready(function(){
+    $("#saveBtn7").click(function(){
+      $("#pane7").slideToggle("slowest");
+      $("#pane7").delay(500).slideUp(1000);
+    });
+});
+
+$(document).ready(function(){
+    $("#saveBtn8").click(function(){
+      $("#pane8").slideToggle("slowest");
+      $("#pane8").delay(500).slideUp(1000);
+    });
+});
+  //   ---------------------------------------------------------------------------------------save panel animation

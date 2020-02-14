@@ -22,7 +22,6 @@ textarea{
   border-radius: 0;
   border-bottom: 10px solid black;
   font-family: 'Audiowide', cursive;
-
 }
 
 .description{
@@ -65,27 +64,16 @@ textarea{
   background-color: #77dd77;
   color: white;
 }
-
+/* -----------------------------------------------------------------------------------------------------------------------------------hr Chunks */
 .hrChunks {
   flex: auto;
   text-align: center;
   background-color: #77dd77;
 }
 
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
 
-#hrChunk {
+.chunk {
   border-radius: 23px 139px 84px 84px;
 -moz-border-radius: 23px 139px 84px 84px;
 -webkit-border-radius: 23px 139px 84px 84px;
@@ -98,13 +86,43 @@ border: 0px solid #000000;
   box-shadow: -11px -1px 50px 18px rgba(112,28,117,1);
 }
 
-/* this will fade the outlines of the text boxes..................................................... */
+
+.pastChunk {
+  border-radius: 23px 139px 84px 84px;
+-moz-border-radius: 23px 139px 84px 84px;
+-webkit-border-radius: 23px 139px 84px 84px;
+border: 0px solid #000000;
+  padding: 4%;
+  background: rgb(255,254,125);
+background: linear-gradient(270deg, rgba(255,254,125,1) 35%, rgba(173,13,13,1) 100%);
+-webkit-box-shadow: -11px -1px 50px 18px rgba(173,13,13,1) 100%;
+  -moz-box-shadow: -11px -1px 50px 18px rgba(173,13,13,1) 100%;
+  box-shadow: -11px -1px 50px 18px rgba(173,13,13,1) 100%;
+}
+
+
+
+/* /form control fill in and text changer ...................................................................................................... */ 
+.pastForm-control {
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: rgb(255,254,125);
+background: linear-gradient(270deg, rgba(255,254,125,1) 35%, rgba(173,13,13,1) 100%);
+  resize: none; 
+  color: #000000;
+  font-family: 'Audiowide', cursive;
+  font-size: larger;
+}
+
 
 .form-controlSaved {
   border: none;
   overflow: auto;
   outline: none;
-
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -121,7 +139,11 @@ border: 0px solid #000000;
 
 }
 
+
+/* /form control fill in and text changer ...................................................................................................... */ 
+/* -------------------------------------------------------------------------------------------------------------------------------save butonnns */
 .myButton {
+  font-family: 'Audiowide', cursive;
   width: 100%;
   background: rgb(112,28,117);
   background: linear-gradient(90deg, rgba(112,28,117,1) 35%, rgba(252,205,255,1) 100%);
@@ -139,9 +161,24 @@ background: linear-gradient(270deg, rgba(112,28,117,1) 35%, rgba(252,205,255,1) 
 }
 
 
-#panel {
+.panel {
   display: none;
 }
+
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------save butonnns */
 
 h1 {
   font-family: 'Audiowide', cursive;
@@ -160,3 +197,5 @@ h2 {
 .hide {
   display: none;
 }
+
+
